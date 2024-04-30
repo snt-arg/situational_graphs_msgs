@@ -31,6 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RoomData.msg"
   "msg/RoomsData.msg"
   "msg/FloorCoeffs.msg"
+  "msg/FloorData.msg"
   "msg/ScanMatchingStatus.msg"
   "msg/WallData.msg"
   "msg/WallsData.msg"
