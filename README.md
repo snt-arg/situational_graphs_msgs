@@ -1,3 +1,3 @@
-# S-Graphs Messages
+# Situational Graphs Messages
 
-Custom messages used by s_graphs and its dependencies.
+Custom messages used by s_graphs repo and its dependencies.
