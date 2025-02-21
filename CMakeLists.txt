@@ -23,6 +23,7 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
+find_package(gazebo_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PointClouds.msg"
@@ -35,10 +36,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ScanMatchingStatus.msg"
   "msg/WallData.msg"
   "msg/WallsData.msg"
+  "msg/EntityData.msg"
+  "msg/EntitiesData.msg"
+  "msg/ModelStatesStamped.msg"
   "srv/DumpGraph.srv"
   "srv/SaveMap.srv"
   "srv/LoadGraph.srv"
-  DEPENDENCIES builtin_interfaces rosidl_default_generators std_msgs geometry_msgs sensor_msgs visualization_msgs
+  DEPENDENCIES builtin_interfaces rosidl_default_generators gazebo_msgs std_msgs geometry_msgs sensor_msgs visualization_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)

@@ -16,6 +16,7 @@
   <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>visualization_msgs</depend>
+  <depend>gazebo_msgs</depend>
 
   <member_of_group>rosidl_interface_packages</member_of_group>
 
